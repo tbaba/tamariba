@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.1'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+# Use Haml for templates
+gem 'haml-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -39,6 +41,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'erb2haml'
 end
 
 
